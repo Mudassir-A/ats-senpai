@@ -11,13 +11,15 @@ ATS Resume Analyzer is an AI-powered tool that helps job seekers evaluate their 
   - **Match Percentage Analysis**: See match percentage, keyword alignment, and improvement tips
 - **Downloadable analysis report**
 - Simple and intuitive **Streamlit UI**
+- Securely enter your **Google API key** for AI processing
+
+
 
 ## 🛠️ Tech Stack
 - **Python** (Backend logic)
 - **Streamlit** (User Interface)
 - **PyPDF2** (PDF text extraction)
 - **Google Gemini AI** (AI-powered resume analysis)
-- **dotenv** (Environment variable management)
 
 ## 📌 Installation
 1. Clone this repository:
@@ -29,12 +31,6 @@ ATS Resume Analyzer is an AI-powered tool that helps job seekers evaluate their 
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up your API key:
-   - Create a `.env` file in the project root
-   - Add your **Google API Key**:
-     ```
-     GOOGLE_API_KEY=your_api_key_here
-     ```
 
 ## ▶️ Usage
 Run the Streamlit app:
@@ -50,8 +46,8 @@ streamlit run app.py
 5. **View results & download the report**
 
 ## 📌 Screenshots
-![screenshot 1](assets/image.png)
-![screenshot 2](assets/image2.png)
+![screenshot-1](assets/image.png)
+![screenshot-2](assets/image-1.png)
 
 ## 🔥 Future Enhancements
 - Support for multiple resume formats (DOCX, TXT)
