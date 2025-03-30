@@ -32,7 +32,7 @@ class ATSAnalyzer:
 
 def main():
     # page configuration
-    st.set_page_config(page_title="ATS Resume Expert", page_icon="📄", layout="wide")
+    st.set_page_config(page_title="ATS Senpai", page_icon="📄", layout="wide")
 
     # custom css
     st.markdown(
